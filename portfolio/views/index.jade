@@ -1,5 +1,28 @@
 extends layout
 
+block header
+    ul
+        li 
+            a(href="https://www.linkedin.com/in/martijngorree") LinkedIN
+        li
+            a(href="https://www.facebook.com/martijngorree") Facebook
+        li
+            a(href="https://github.com/martijngorree/martijngorree.com") Github
+        li
+            a(href="https://www.codementor.io/martijngorree") Codementor
+
 block content
-  h1= title
-  p Welcome to #{title}
+    .introduction
+        h1 
+            | Hello, my name is 
+            .highlight 
+                | Martijn Gorree 
+            | and I am a full stack 
+            .highlight 
+                | developer.
+        h2 
+            | Currently employed at 
+            a.highlight(href="http://www.fabrique.nl") Fabrique [merken, design & interactie]
+        
+        a.btn(href="mailto:m@rtijngorree.nl", rel="nofollow") 
+            | Write me something

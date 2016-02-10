@@ -1,0 +1,25 @@
+
+.highlight {
+    color: $red;
+    display: inline;
+}
+
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    background: $red;
+    color: $green;
+    &:hover {
+        background: $pink;
+        color: $red;
+    }
+}
+
+.header {
+    li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+}

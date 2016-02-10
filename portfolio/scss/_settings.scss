@@ -2,4 +2,14 @@ $susy: (
     columns: 12,
     gutters: .25,
     gutter-position: inside
-)
+);
+$breakpoints: (
+    'small': 320px,
+    'medium': 760px,
+    'large': 960px,
+    'xlarge': 1280px
+);
+$yellow: #E6AF4B;
+$red: #E05038;
+$pink: #F2CBBC;
+$green: #334431;
