@@ -1,0 +1,24 @@
+{
+  "name": "portfolio",
+  "description": "",
+  "main": "app.es6",
+  "authors": [
+    "Martijn Gorree <m@rtijngorree.nl>"
+  ],
+  "license": "GPL v3",
+  "homepage": "https://github.com/martijngorree/martijngorree.com",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "susy": "^2.2.12"
+  }
+}

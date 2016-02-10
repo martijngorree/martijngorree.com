@@ -1,0 +1,16 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../../scss/style.scss",
+		"../../scss/_settings.scss",
+		"../../scss/_tools.scss",
+		"../../scss/_generic.scss",
+		"../../scss/_elements.scss",
+		"../../scss/_objects.scss",
+		"../../scss/_components.scss",
+		"../../scss/_trumps.scss"
+	],
+	"mappings": "AGAA,CAAC,AAAC,CACE,OAAO,CAAE,CAAE,CACX,MAAM,CAAE,CAAE,CACV,UAAU,CAAE,SAAU,CACzB",
+	"names": []
+}
