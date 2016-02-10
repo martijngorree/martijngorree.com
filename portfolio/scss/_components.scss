@@ -18,8 +18,9 @@
 }
 
 .header {
-    li {
-        display: inline-block;
-        margin-right: 20px;
+    background: $green;
+    color: $pink;
+    a {
+        color: $pink;
     }
 }
