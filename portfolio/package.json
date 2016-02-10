@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "babel-node ./bin/www",
-    "lint": "eslint app.es6",
+    "build": "babel app.js -d build",
+    "lint": "eslint app.js",
     "sass": "sassc -mt compressed scss/style.scss public/stylesheets/style.css",
     "auto-start": "nodemon -e js,scss --exec \"npm run lint && npm run sass && npm start\" --ignore public/js"
   },
@@ -15,7 +16,7 @@
     "express": "~4.13.1",
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "^2.3.0"
   },
   "devDependencies": {
     "babel-cli": "^6.5.1",
