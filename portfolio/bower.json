@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "description": "",
-  "main": "app.es6",
+  "main": "app.js",
   "authors": [
     "Martijn Gorree <m@rtijngorree.nl>"
   ],
