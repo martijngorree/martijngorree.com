@@ -9,13 +9,16 @@ h1 {
     @include mappy-bp(medium) {
         font-size: em(80);
     }
+    @include mappy-bp(xlarge) {
+        font-size: em(140);
+    }
 }
 
 a {
     color: $red;
     text-decoration: none;
     border-bottom: 1px solid $red;
-    @include transition(color 200ms linear);
+    @include transition(color 100ms linear);
     &:hover,
     &:active {
         color: $pink;

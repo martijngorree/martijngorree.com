@@ -1,6 +1,0 @@
-{
-    "apps": [{
-        "script": "./bin/www",
-        "exec_interpreter": "babel-node"
-    }]
-}
