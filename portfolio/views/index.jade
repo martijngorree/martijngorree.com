@@ -1,32 +1,32 @@
 extends layout
 
 block header
-    ul
-        li 
-            a(href="https://www.linkedin.com/in/martijngorree") LinkedIN
-        li
-            a(href="https://www.codementor.io/martijngorree") Codementor
-        li
-            a(href="https://github.com/martijngorree/martijngorree.com") Github
-        li
-            a(href="https://www.facebook.com/martijngorree") Facebook
-        li
-            a(href="https://twitter.com/martijngorree") Twitter
-        li
-            a(href="https://www.flickr.com/photos/martijngorree") Flickr
+    ul.header__list
+        li.header__list-item
+            a.header__link.header__link--linkedin(href="https://www.linkedin.com/in/martijngorree", target="_blank") LinkedIN
+        li.header__list-item
+            a.header__link.header__link--codementor(href="https://www.codementor.io/martijngorree", target="_blank") Codementor
+        li.header__list-item
+            a.header__link.header__link--github(href="https://github.com/martijngorree/martijngorree.com", target="_blank") Github
+        li.header__list-item
+            a.header__link.header__link--facebook(href="https://www.facebook.com/martijngorree", target="_blank") Facebook
+        li.header__list-item
+            a.header__link.header__link--twitter(href="https://twitter.com/martijngorree", target="_blank") Twitter
+        li.header__list-item
+            a.header__link.header__link--flickr(href="https://www.flickr.com/photos/martijngorree", target="_blank") Flickr
 
 block content
-    .introduction
-        h1 
+    .intro
+        h1.intro__header
             | Hello, my name is 
             .highlight 
                 | Martijn Gorree 
             | and I am a full stack 
             .highlight 
                 | developer.
-        h2 
+        h2.intro__subheader
             | Currently employed at 
-            a.highlight(href="http://www.fabrique.nl") Fabrique [merken, design & interactie]
+            a.intro__subheader--link.highlight(href="http://www.fabrique.nl") Fabrique [merken, design & interactie]
         
-        a.btn(href="mailto:m@rtijngorree.nl", rel="nofollow") 
+        a.intro__cta.btn(href="mailto:m@rtijngorree.nl", rel="nofollow") 
             | Write me something
