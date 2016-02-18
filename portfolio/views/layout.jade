@@ -3,6 +3,7 @@ html
     head
         title Martijn Gorree
         link(rel='stylesheet', href='/stylesheets/style.css')
+    
     body
         .wrapper
             .header
@@ -11,3 +12,8 @@ html
                 block content
             .footer
                 block footer
+                
+        script(type="text/javascript", src="https://code.jquery.com/jquery-2.2.0.min.js")
+        script(type="text/javascript").
+            window.jQuery || document.write('<script src="/javascripts/vendor/jquery-2.2.0.min.js"><\/script>');
+        script(type="text/javascript", src="javascripts/script.js")

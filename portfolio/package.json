@@ -4,10 +4,11 @@
   "private": true,
   "scripts": {
     "start": "babel-node ./bin/www",
-    "build": "babel app.js -d build",
-    "lint": "eslint app.js",
-    "sass": "sassc -mt compressed scss/style.scss public/stylesheets/style.css",
-    "auto-start": "nodemon -e js,scss --exec \"npm run sass && npm start\" --ignore public/js"
+    "lint": "eslint app.es6.js",
+    "build:node": "babel app.es6.js -o app.js",
+    "build:javascripts": "babel frontend-js/script.es6.js -o public/javascripts/script.js",
+    "build:sass": "sassc -mt compressed scss/style.scss public/stylesheets/style.css",
+    "auto-start": "nodemon -e js,scss --exec \"npm run lint && npm run build:sass && npm run build:javascripts && npm run build:node && npm start\" --ignore bin/ --ignore node_modules/ --ignore bower_components/ --ignore public/ --ignore app.js"
   },
   "dependencies": {
     "body-parser": "~1.13.2",
@@ -15,6 +16,8 @@
     "debug": "~2.2.0",
     "express": "~4.13.1",
     "jade": "~1.11.0",
+    "mongodb": "^2.1.7",
+    "mongoose": "^4.4.4",
     "morgan": "~1.6.1",
     "serve-favicon": "^2.3.0"
   },

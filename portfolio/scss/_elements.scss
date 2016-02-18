@@ -19,3 +19,9 @@ a {
     color: $white;
     @include transition(color 100ms linear);
 }
+
+input {
+    height: 1.2em;
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0);
+}
