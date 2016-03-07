@@ -7,21 +7,6 @@
     }
 }
 
-.btn {
-    text-decoration: none;
-    display: inline-block;
-    border-bottom: 0;
-    padding: 10px 20px;
-    text-align: center;
-    background: $white;
-    color: $green;
-    &:hover {
-        border-bottom: 0;
-        background: $yellow;
-        color: $green;
-    }
-}
-
 .header {
     background: $black;
     color: $pink;
@@ -49,5 +34,82 @@
         color: $yellow;
         border-color: $yellow;
     }
-    &__cta { }
+    &__cta {
+    }
+}
+
+.exp-bingo {
+    @include span(12 of 12);
+
+    @include mappy-bp(medium) {
+        @include span(8 of 12);
+    }
+    @include mappy-bp(large) {
+        @include span(12 of 12);
+    }
+
+    margin-top: 2em;
+
+    &__form {
+        &__label {
+            font-size: $font-size-default;
+            line-height: 1.2;
+            display: inline-block;
+            @include mappy-bp(medium) {
+                font-size: $font-size-large;
+            }
+            @include mappy-bp(xlarge) {
+                font-size: $font-size-xlarge;
+            }
+        }
+
+        &__input {
+            background: rgba(255, 255, 255, .2);
+            font-size: 100%;
+            padding: 10px;
+            margin: 0;
+            border: 0;
+            border-bottom: 4px solid #FFF;
+            position: relative;
+            @include mappy-bp(medium) {
+                margin: 0 10px;
+                padding: 15px;
+            }
+            @include mappy-bp(xlarge) {
+                width: 450px;
+                padding: 20px;
+            }
+        }
+    }
+    &__submit {
+        margin-top: 1em;
+    }
+
+    &__answer {
+        margin-top: 1em;
+        font-size: $font-size-large;
+        background: rgba(255, 255, 255, .2);
+        color: $white;
+        
+        &__bool {
+            color: $pink;
+            padding: 10px;
+        }
+        &__description {
+            padding: 10px;
+        }
+
+        @include span(12 of 12);
+        @include mappy-bp(medium) {
+            @include span(10 of 12);
+            &__bool,
+            &__description { padding: 15px }
+        }
+        @include mappy-bp(xlarge) {
+            @include span(8 of 12);
+            &__bool,
+            &__description { padding: 20px }
+        }
+
+    }
 }

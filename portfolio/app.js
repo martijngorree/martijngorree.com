@@ -28,11 +28,19 @@ var _index = require('./routes/index');
 
 var _index2 = _interopRequireDefault(_index);
 
+var _api = require('./routes/api');
+
+var _api2 = _interopRequireDefault(_api);
+
+var _mongoose = require('mongoose');
+
+var _mongoose2 = _interopRequireDefault(_mongoose);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//import users from './routes/users';
-
 var app = (0, _express2.default)();
+
+_mongoose2.default.connect('mongodb://localhost/martijngorree'); // connect to our database
 
 // view engine setup
 app.set('views', _path2.default.join(__dirname, 'views'));
@@ -47,7 +55,7 @@ app.use((0, _cookieParser2.default)());
 app.use(_express2.default.static(_path2.default.join(__dirname, 'public')));
 
 app.use('/', _index2.default);
-//app.use('/users', users);
+app.use('/api', _api2.default);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

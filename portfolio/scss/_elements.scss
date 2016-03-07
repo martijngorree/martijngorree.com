@@ -1,15 +1,15 @@
 body {
-    color: $yellow;
+    color: $white;
 }
 
 h1 {
-    font-size: em(40);
+    font-size: $font-size-large;
     line-height: 1.2;
     @include mappy-bp(medium) {
-        font-size: em(80);
+        font-size: $font-size-xlarge;
     }
     @include mappy-bp(xlarge) {
-        font-size: em(140);
+        font-size: $font-size-xxlarge;
     }
 }
 
@@ -21,7 +21,15 @@ a {
 }
 
 input {
-    height: 1.2em;
-    border: 1px solid white;
+    line-height: 1.2;
     background-color: rgba(255, 255, 255, 0);
+    &[type=submit] {
+        border: 0;
+    }
+    &[type=text],
+    &[type=email],
+    &[type=password] {
+        color: $white;
+    }
+
 }

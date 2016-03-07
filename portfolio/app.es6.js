@@ -7,9 +7,12 @@ import cookieParser from 'cookie-parser';
 import bodyParser from 'body-parser';
 
 import routes from './routes/index';
-//import users from './routes/users';
+import api from './routes/api';
 
 let app = express();
+
+import mongoose from 'mongoose';
+mongoose.connect('mongodb://localhost/martijngorree'); // connect to our database
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -24,7 +27,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
-//app.use('/users', users);
+app.use('/api', api);
 
 // catch 404 and forward to error handler
 app.use((req, res, next) => {

@@ -2,6 +2,33 @@
 .content {
     padding: 20px;
 }
+.content {
+    @include container(90em);
+    margin-left: 0;
+}
 .header {
     min-height: 60px;
+}
+.btn {
+    line-height: 1.5;
+    text-decoration: none;
+    display: inline-block;
+    border: 0;
+    padding: 10px 20px;
+    text-align: center;
+    background: $white;
+    color: $green;
+
+    @include mappy-bp(medium) {
+        font-size: $font-size-default;
+    }
+    @include mappy-bp(xlarge) {
+        font-size: $font-size-large;
+    }
+
+    &:hover {
+        border-bottom: 0;
+        background: $yellow;
+        color: $green;
+    }
 }
