@@ -9,7 +9,8 @@
     "build:webpack": "webpack -c webpack.config.js",
     "build:alljs": "npm run build:node && npm run build:webpack && cp -v frontend-js/dist/bundle.js public/javascripts/",
     "build:sass": "sassc -mt compressed scss/style.scss public/stylesheets/style.css",
-    "auto-start": "nodemon -e js,scss --exec \"npm run lint && npm run build:sass && npm run build:alljs && npm start\" --ignore bin/ --ignore node_modules/ --ignore bower_components/ --ignore public/ --ignore app.js --ignore frontend-js/dist/"
+    "watch-js": "nodemon -e js --exec \"npm run lint && npm run build:alljs && npm start\" --ignore bin/ --ignore node_modules/ --ignore bower_components/ --ignore public/ --ignore app.js --ignore frontend-js/dist/ --ignore scss/",
+    "watch-css": "nodemon -e scss --exec \"npm run build:sass\" --ignore node_modules/ --ignore bower_components/ --ignore public/"
   },
   "dependencies": {
     "body-parser": "~1.13.2",

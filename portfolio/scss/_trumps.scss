@@ -7,9 +7,17 @@
     }
 }
 
-.header {
+header {
     li {
         display: inline-block;
         margin-right: 20px;
+    }
+}
+
+footer {
+    .icon--musclepower {
+        margin: 0 5px;
+        position: relative;
+        top: 10px;
     }
 }

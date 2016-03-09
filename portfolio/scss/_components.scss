@@ -1,54 +1,54 @@
 
 .highlight {
-    color: $pink;
+    color: $monkey-earth;
     display: inline;
     a& {
-        border-color: $pink;
+        border-color: $monkey-earth;
     }
 }
 
-.header {
-    background: $black;
-    color: $pink;
-    .header__link,
-    .header__link:visited {
-        color: $pink;
-        border-color: $pink;
-        &:hover,
-        &:active {
-            color: $white;
-            border-color: $white;
-        }
+.header__link,
+.header__link:visited {
+    color: $white;
+    border-color: $white;
+    &:hover,
+    &:active {
+        color: $black;
+        border-color: $black;
     }
 }
 
 .intro {
+    background-image: url(/images/background.jpg);
+    background-image: url(/images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    padding-bottom: 3em;
+
     &__subheader,
     &__header {
+        @include textshadow;
         color: $white;
         margin-bottom: .75em;
-        text-shadow: 0px 0px 100px rgba(0, 0, 0, 1);
     }
     &__subheader--link,
     &__subheader--link:visited {
-        color: $yellow;
-        border-color: $yellow;
+        color: $monkey-earth;
+        border-color: $monkey-earth;
     }
     &__cta {
     }
 }
 
 .exp-bingo {
-    @include span(12 of 12);
+    @extend .row;
 
-    @include mappy-bp(medium) {
-        @include span(8 of 12);
-    }
-    @include mappy-bp(large) {
-        @include span(12 of 12);
-    }
-
-    margin-top: 2em;
+    background: $monkey-earth;
+    color: $black;
+    text-align: center;
 
     &__form {
         &__label {
@@ -64,16 +64,21 @@
         }
 
         &__input {
-            background: rgba(255, 255, 255, .2);
+            background: rgba(255, 255, 255, .5);
             font-size: 100%;
             padding: 10px;
             margin: 0;
+            margin-right: 10px;
             border: 0;
             border-bottom: 4px solid #FFF;
             position: relative;
+            width: 200px;
+            text-align: center;
             @include mappy-bp(medium) {
-                margin: 0 10px;
+                text-align: left;
                 padding: 15px;
+                margin-left: 10px;
+                width: 300px;
             }
             @include mappy-bp(xlarge) {
                 width: 450px;
@@ -81,35 +86,45 @@
             }
         }
     }
-    &__submit {
-        margin-top: 1em;
-    }
 
     &__answer {
-        margin-top: 1em;
-        font-size: $font-size-large;
-        background: rgba(255, 255, 255, .2);
-        color: $white;
-        
-        &__bool {
-            color: $pink;
-            padding: 10px;
-        }
-        &__description {
-            padding: 10px;
-        }
-
+        @include clearfix;
         @include span(12 of 12);
-        @include mappy-bp(medium) {
-            @include span(10 of 12);
-            &__bool,
-            &__description { padding: 15px }
+        float: none;
+        margin: 1em auto;
+        font-size: $font-size-large;
+        background: rgba(255, 255, 255, .5);
+        color: $black;
+
+        &__title {
+            width: 100%;
+            color: $black;
+            padding: .5em;
+            font-size: 150%;
         }
-        @include mappy-bp(xlarge) {
-            @include span(8 of 12);
-            &__bool,
-            &__description { padding: 20px }
+        &__descr {
+            padding: 10px;
+            font-size: 75%;
+            @include mappy-bp(medium) {
+                text-align: justify;
+                font-size: 100%;
+            }
         }
 
+        @include mappy-bp(large) {
+            @include span(8 of 12);
+            float: none;
+        }
+
+        @include mappy-bp(xlarge) {
+            @include span(6 of 12);
+            float: none;
+        }
     }
+}
+
+footer {
+    text-align: center;
+    padding-top: 1em;
+
 }

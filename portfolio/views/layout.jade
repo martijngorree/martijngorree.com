@@ -6,11 +6,16 @@ html
     
     body
         .wrapper
-            .header
+            header
                 block header
             .content
                 block content
-            .footer
+            footer
                 block footer
+                    p &copy; 2016. Made with
+                        img(src="/images/muscle.svg", alt="muclepower" class="icon icon--musclepower")
+                        | by Martijn Gorree. Check the code @ 
+                        a(href="https://github.com/martijngorree/martijngorree.com", target="_blank") 
+                            | GitHub
                 
         script(type="text/javascript", src="javascripts/bundle.js")

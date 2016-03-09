@@ -1,30 +1,29 @@
 import objectory from 'objectory';
 import $ from 'jquery';
-import SkillsApi from './skillsapi.es6';
 import path from 'path';
 
+import SkillsApi from './skillsapi.es6';
+import answer_template from '../templates/answer.hbs';
 
 var SkillWidget = objectory((obj) => {
 
-    var skillsApi = SkillsApi();
-    var defaultSkill = {
-        response: false,
+    const defaultSkill = {
+        response: 'Oh ehm, what?',
         skill: '',
-        story: "But! It seems you've found something unknown. Maybe its better you just send an email. You know, so we can discus this thing in person."
+        story: "It seems you've found something unknown. Maybe its better you just send an email. You know, so we can discus this thing in person."
     }
 
+    var skillsApi = SkillsApi();
+
     var showSkill = (elem_id, data) => {
-        //$("#"+elem_id+" .js-answer-skill").html(data['skill']);
-        if(data.response == true) {
-            $("#"+elem_id+" .js-answer-bool").html("Yes, he can");
-        } else {
-            $("#"+elem_id+" .js-answer-bool").html("No, he can't (yet)");
-        }
-        $("#"+elem_id+" .js-answer-descr").html(data['story']);
+        $("#"+elem_id+" .js-answer").html(answer_template({
+            title: data['response'],
+            descr: data['story']
+        }));
     }
 
     var clearAnswer = (elem_id) => {
-        $("#"+elem_id+" .js-answer-bool, #"+elem_id+" .js-answer-descr").html("")
+        $("#"+elem_id+" .js-answer").html("")
     }
 
     obj.bindEvents = (elem_id) => {
@@ -32,14 +31,12 @@ var SkillWidget = objectory((obj) => {
         $("#"+elem_id+" .js-form input[type=text]").focus();
 
         $("#"+elem_id+" .js-form").on('submit', (evt) => {
-            $("#"+elem_id+" .js-check").trigger('click');
             evt.preventDefault();
-        });
 
-        $("#"+elem_id+" .js-check").on('click', (evt) => {
-            var skill_input = $("#"+elem_id+" input[name=skill]").val();
+            let skill_input = $("#"+elem_id+" input[name=skill]").val();
+
             if(skill_input != "") {
-                var api_url = path.join(skillsApi.API_ENDPOINT, skill_input);
+                let api_url = path.join(skillsApi.API_ENDPOINT, skill_input);
 
                 $.get(api_url, (data) => {
                 }).done((data) => {
@@ -58,4 +55,4 @@ var SkillWidget = objectory((obj) => {
 
 });
 
-module.exports = SkillWidget
+module.exports = SkillWidget;

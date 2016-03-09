@@ -3,7 +3,7 @@ var Schema = mongoose.Schema;
 
 var SkillSchema = new Schema({
     skill: String,
-    response: Boolean,
+    response: String,
     story: String
 });
 

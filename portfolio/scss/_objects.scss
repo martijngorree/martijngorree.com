@@ -1,13 +1,14 @@
-.header,
 .content {
-    padding: 20px;
-}
-.content {
-    @include container(90em);
     margin-left: 0;
+
 }
-.header {
-    min-height: 60px;
+.row {
+    padding: 3em 1em;
+}
+.icon {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
 }
 .btn {
     line-height: 1.5;
@@ -16,8 +17,8 @@
     border: 0;
     padding: 10px 20px;
     text-align: center;
-    background: $white;
-    color: $green;
+    background: $monkey-red;
+    color: $white;
 
     @include mappy-bp(medium) {
         font-size: $font-size-default;
@@ -28,7 +29,7 @@
 
     &:hover {
         border-bottom: 0;
-        background: $yellow;
-        color: $green;
+        background: $white;
+        color: $black;
     }
 }

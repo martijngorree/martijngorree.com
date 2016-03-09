@@ -8,6 +8,10 @@ module.exports = {
     },
     module: {
         loaders: [
+            { 
+                test: /\.hbs$/, 
+                loader: "handlebars-loader" 
+            },
             {
                 test: /\.es6\.js$/,
                 exclude: /(node_modules|bower_components)/,

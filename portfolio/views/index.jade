@@ -16,7 +16,8 @@ block header
             a.header__link.header__link--flickr(href="https://www.flickr.com/photos/martijngorree", target="_blank") Flickr
 
 block content
-    .intro
+
+    .row.intro
         h1.intro__header
             | Hello, my name is 
             .highlight 
@@ -26,12 +27,12 @@ block content
                 | developer.
         h2.intro__subheader
             | Currently employed at 
-            a.intro__subheader--link.highlight(href="http://www.fabrique.nl") Fabrique [merken, design & interactie]
+            a.intro__subheader--link.highlight(href="http://www.fabrique.nl", target="_blank") Fabrique [merken, design & interactie]
         
         a.intro__cta.btn(href="mailto:m@rtijngorree.nl", rel="nofollow") 
             | Write me something
     
-    #skillWidget.exp-bingo
+    #skillWidget.exp-bingo.row
 
         form.exp-bingo__form.js-form(method="get", action="?")
             .input-group
@@ -40,12 +41,5 @@ block content
                     input.exp-bingo__form__input(type="text", name="skill")
                     | ?
 
-            .input-group
-                button.btn.btn-submit.exp-bingo__submit.js-check Find out!
-
         .exp-bingo__answer.js-answer
-            //.answer__skill.js-answer-skill
-            .exp-bingo__answer__bool.js-answer-bool
-            .exp-bingo__answer__description.js-answer-descr
-
-    .portfolio
+            

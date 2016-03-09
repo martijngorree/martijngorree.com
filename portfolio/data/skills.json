@@ -1,0 +1,402 @@
+[
+    {
+        "skill": ["php", "php5"],
+        "response": "Yes",
+        "story": "Its been a while ago, but Martijn is a Zend Engineer and grew up with php. Not his favorite language in the world though as he prefers Python."
+    },
+    {
+        "skill": ["python", "py"],
+        "response": "Fuck yes",
+        "story": "Actually Martijn loves the Python. It makes him happy."
+    },
+    {
+        "skill": ["django"],
+        "response": "Yes",
+        "story": "Django is Martijn's framework of choice. He's been playing arround with this since 0.9 and has been instrumental in the introduction at Fabrique. Martijn is also involved with DjangoGirls, trying to get women interrested in programming"
+    },
+    {
+        "skill": ["teaching", "coaching"],
+        "response": "Yes he can",
+        "story": "Martijn loves this shit. He has been a coach at DjangoGirls and has many years of experience showing fellow collegues the way of Python and the Django."
+    },
+    {
+        "skill": ["javascript", "js"],
+        "response": "Yup",
+        "story": "Martijn can handle es5 and has trainingwheels on es2015. This thing you're looking at has a lot of javascript, click the gitbug link at the top to check it out."
+    },
+    {
+        "skill": ["css", "css3"],
+        "response": "Of course",
+        "story": "I mean, what did you expect? Martijn has many years experience playing arround with CSS. Usually in combination with SCSS."
+    },
+    {
+        "skill": ["html", "html5"],
+        "response": "Of course",
+        "story": "HTML is a good friend of Martijn. Its what underpins all of his websites ;)"
+    },
+    {
+        "skill": ["drempelvrij", "wcag", "accessibility", "webrichtlijnen", "aria"],
+        "response": "Yes",
+        "story": "Martijn has a thorough knowledge of accessibility standards. He has done work on many government websites where level AAA conformance is mandatory."
+    },
+    {
+        "skill": ["wordpress", "wp"],
+        "response": "Yes, but so so",
+        "story": "Wordpress is not something Martijn has spend a lot of time on. But he has a little experience and can probably build anything you like."
+    },
+    {
+        "skill": "joomla",
+        "response": "Nope nope nope",
+        "story": "Joomla sucks the balls. So nope, no experence and also no willingness to learn. Please go away."
+    },
+    {
+        "skill": "laravel",
+        "response": "No, but...",
+        "story": "If Martijn would have to build something with PHP then Laravel would be at the top of list-of-things-to-use."
+    },
+    {
+        "skill": "symfony",
+        "response": "No, well yes, but no",
+        "story": "Martijn has built things with symfony, but that is so long ago that its best to consider this to be a 'no'"
+    },
+    {
+        "skill": ["rails", "ror", "ruby"],
+        "response": "Ah, nope",
+        "story": "Martijn has no experience with ruby or rails for that matter. But, he is willing to learn if the job requires it"
+    },
+    {
+        "skill": "jquery",
+        "response": "Yes!",
+        "story": "jQuery is Martijn's workhorse. While he has also used other frameworks like zepto, jquery is still his main squeeze."
+    },
+    {
+        "skill": "zepto",
+        "response": "Yes, a little",
+        "story": "Martijn has really only used Zepto to check out jQuery alternatives."
+    },
+    {
+        "skill": "mysql",
+        "response": "Yes!",
+        "story": "Though Martijn has since moved on to Postgresql, he has a lot of experience working with MySQL servers"
+    },
+    {
+        "skill": ["pg", "postgresql", "psql"],
+        "response": "Yep",
+        "story": "Postgres is Martijn's main relational database choice. Especially in combination with Django."
+    },
+    {
+        "skill": "mongodb",
+        "response": "Yep",
+        "story": "Though he just started using MongoDB. So he can get it to work, (I mean, what you are reading now comes from MongoDB) but there is still a lot to learn."
+    },
+    {
+        "skill": ["databases", "dba", "db", "sql"],
+        "response": "Yes",
+        "story": "Though the question is a bit ambiguous, Martijn has experience with several relational databases (MySQL, Postgresql) and a few nonrelational databases / key-value stores (MongoDB, Redis, memcached)"
+    },
+    {
+        "skill": ["git", "github"],
+        "response": "Yup",
+        "story": "Martijn knows git. Specifically he really likes gitflow and uses bitbucket as his main provider"
+    },
+    {
+        "skill": ["hg", "mecurial"],
+        "response": "Not so much",
+        "story": "Martijn uses git more. But has some experience using hg."
+    },
+    {
+        "skill": ["svn", "subversion"],
+        "response": "Yes",
+        "story": "Before git, svn was what Martijn was using. So he knows."
+    },
+    {
+        "skill": "english",
+        "response": "Awhyeah",
+        "story": "Yes, martijn can do english. While asking it like that is a bit weird. I mean; Who 'does' english? But other then that, yes. Yes he can. Rest assured, he will understand what you are saying."
+    },
+    {
+        "skill": "dutch",
+        "response": "Ja",
+        "story": "Martijn is stiekem gewoon Nederlands, dus al dat engels op deze site is puur voor de internationals onder ons. Zolang wij elkaar maar begrijpen toch?"
+    },
+    {
+        "skill": "german",
+        "response": "Ja, eh, nein",
+        "story": "German is not Marijn's strongest language. As in; he can understand a little and write even less."
+    },
+    {
+        "skill": "french",
+        "response": "Non",
+        "story": "Je ne parle pas français"
+    },
+    {
+        "skill": "japanese",
+        "response": "いいえ",
+        "story": "彼は本当に学びたいです。しかし、今ちょうどGoogleが物事を成し遂げるために翻訳使用されています。"
+    },
+    {
+        "skill": "photoshop",
+        "response": "A little",
+        "story": "Martijn has little Photoshop knowledge. He is more a 'Sketch' guy and not really a visual designer. Martijn uses it merely as a tool to interpret designs from people who know what they're doing."
+    },
+    {
+        "skill": "illustrator",
+        "response": "No",
+        "story": "No illustrator experience, none."
+    },
+    {
+        "skill": "sketch",
+        "response": "Yes, somewhat",
+        "story": "If Martijn had to use a tool to design something; it would be Sketch. Martijn has a few years of experience using it at Fabrique, working together with designerfolk"
+    },
+    {
+        "skill": ["flash", "swf"],
+        "response": "Ah nope",
+        "story": "Well, with playing games and, you know, when flash was still cool. But developing things. No. "
+    },
+    {
+        "skill": "react",
+        "response": "Yes",
+        "story": "While developing whitestone.io Marko and Martijn used react, and flux for that matter, to build things. Martijn is still leaning though."
+    },
+    {
+        "skill": ["angular", "angular.js", "angularjs"],
+        "response": "Nope",
+        "story": "Martijn has not had a chance to use Angular yet. And to be honest, react seems like a better choice."
+    },
+    {
+        "skill": ["node", "nodejs", "node.js"],
+        "response": "A little bit",
+        "story": "Martijn has chosen to use node and express to build this thing you're looking at. You know, just to play arround a bit."
+    },
+    {
+        "skill": "express",
+        "response": "Somewhat",
+        "story": "Actually, Martijn has used this only once before, building this site. But he's interrested though."
+    },
+    {
+        "skill": "linux",
+        "response": "Yes",
+        "story": "And to be specific; Debian based Linux preferably. Mainly Ubuntu to be precise. Martijn has always been a big open source guy. He dreams of RMS's beard and is thinking about getting a GPL tattoo."
+    },
+    {
+        "skill": ["ms", "windows", "microsoft", "azure"],
+        "response": "Ah nope",
+        "story": "Microsoft tech has never really been Martijn's thing. While Azure sounds awesome, he has never taken steps to learn."
+    },
+    {
+        "skill": "osx",
+        "response": "Yes",
+        "story": "OSX is Martijn's workhorse OS. A few year ago he switched from windows to mac, and has never looked back since."
+    },
+    {
+        "skill": ["you", "me"],
+        "response": "Uhmm..",
+        "story": "Maybe? We should definitly get to know eachother first. And what do you mean 'do'?"
+    },
+    {
+        "skill": "coffee",
+        "response": "Yes but...",
+        "story": "Martijn has been going caffeine free from time to time. He's more of a tea guy."
+    },
+    {
+        "skill": "tea",
+        "response": "Yes",
+        "story": "Tea makes Martijn happy. Be it early grey, rooibos or single estate FBOP ceylon. Its all good baby. Shall we go drink one and talk about what makes us happy?"
+    },
+    {
+        "skill": ["zen", "meditation"],
+        "response": "Ommm",
+        "story": "Martijn is a true treehugger. He will hug the shit out of that tree. Martijn has many years experience with mediation and goes to retreats many times a year."
+    },
+    {
+        "skill": "yoga",
+        "response": "Yes and no",
+        "story": "Martijn usually does yoga on a retreat, but its not part of his main routine."
+    },
+    {
+        "skill": "football",
+        "response": "Yes",
+        "story": "While Martijn doesn't like to play on a field, he does know a few tricks."
+    },
+    {
+        "skill": "animation",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "ramen",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["grunt", "gulp"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "npm",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "webpack",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["sass", "scss"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "less",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "apache",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "nginx",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "varnish",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "c#",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["objective-c", "objectivec"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "swift",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "memcached",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "elasticsearch",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["api", "apis", "api's"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "riot",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "ios",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "backbone",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "emacs",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["vim", "vi"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "atom",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["processing", "p5", "p5.js", "processing.js"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "jade",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["handlebars", "mustache"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": ["unicode", "utf8"],
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "bash",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+    {
+        "skill": "",
+        "response": "",
+        "story": ""
+    },
+]
