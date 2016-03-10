@@ -29,10 +29,11 @@
         "response": "Of course",
         "story": "I mean, what did you expect? Martijn has many years experience playing arround with CSS. Usually in combination with SCSS."
     },
+
     {
         "skill": ["html", "html5"],
         "response": "Of course",
-        "story": "HTML is a good friend of Martijn. Its what underpins all of his websites ;)"
+        "story": "HTML is a good friend of Martijn. Its what underpins all of his websites <img src=\"/images/hah.svg\" class=\"emoji\" alt=\"hah\">."
     },
     {
         "skill": ["drempelvrij", "wcag", "accessibility", "webrichtlijnen", "aria"],
