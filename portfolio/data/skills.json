@@ -1,486 +1,405 @@
 [
     {
-        "_id": ObjectID(),
         "skill": ["php", "php5"],
         "response": "Yes",
         "story": "Its been a while ago, but Martijn is a Zend Engineer and grew up with php. Not his favorite language in the world though as he prefers Python."
     },
     {
-        "_id": ObjectID(),
         "skill": ["python", "py"],
         "response": "Fuck yes",
         "story": "Actually Martijn loves the Python. It makes him happy."
     },
     {
-        "_id": ObjectID(),
         "skill": ["django"],
         "response": "Yes",
         "story": "Django is Martijn's framework of choice. He's been playing arround with this since 0.9 and has been instrumental in the introduction at Fabrique. Martijn is also involved with DjangoGirls, trying to get women interrested in programming"
     },
     {
-        "_id": ObjectID(),
         "skill": ["teaching", "coaching"],
         "response": "Yes he can",
         "story": "Martijn loves this shit. He has been a coach at DjangoGirls and Codementor and has many years of experience showing fellow collegues the way of Python and the Django."
     },
     {
-        "_id": ObjectID(),
         "skill": ["javascript", "js"],
         "response": "Yup",
         "story": "Martijn can handle es5 and has trainingwheels on es2015. This thing you're looking at has a lot of javascript, click the gitbug link at the top to check it out."
     },
     {
-        "_id": ObjectID(),
         "skill": ["css", "css3"],
         "response": "Of course",
         "story": "I mean, what did you expect? Martijn has many years experience playing arround with CSS. Usually in combination with SCSS."
     },
     {
-        "_id": ObjectID(),
         "skill": ["html", "html5"],
         "response": "Of course",
         "story": "HTML is a good friend of Martijn. Its what underpins all of his websites ;)"
     },
     {
-        "_id": ObjectID(),
         "skill": ["drempelvrij", "wcag", "accessibility", "webrichtlijnen", "aria"],
         "response": "Yes",
         "story": "Martijn has a thorough knowledge of accessibility standards. He has done work on many government websites where level AAA conformance is mandatory."
     },
     {
-        "_id": ObjectID(),
         "skill": ["wordpress", "wp"],
         "response": "Yes, but so so",
         "story": "Wordpress is not something Martijn has spend a lot of time on. But he has a little experience and can probably build anything you like."
     },
     {
-        "_id": ObjectID(),
         "skill": ["joomla"],
         "response": "Nope nope nope",
         "story": "Joomla sucks the balls. So nope, no experence and also no willingness to learn. Please go away."
     },
     {
-        "_id": ObjectID(),
         "skill": ["laravel"],
         "response": "No, but...",
         "story": "If Martijn would have to build something with PHP then Laravel would be at the top of list-of-things-to-use."
     },
     {
-        "_id": ObjectID(),
         "skill": ["symfony"],
         "response": "No, well yes, but no",
         "story": "Martijn has built things with symfony, but that is so long ago that its best to consider this to be a 'no'"
     },
     {
-        "_id": ObjectID(),
         "skill": ["rails", "ror", "ruby"],
         "response": "Ah, nope",
         "story": "Martijn has no experience with ruby or rails for that matter. But, he is willing to learn if the job requires it"
     },
     {
-        "_id": ObjectID(),
         "skill": ["jquery"],
         "response": "Yes!",
         "story": "jQuery is Martijn's workhorse. While he has also used other frameworks like zepto, jquery is still his main squeeze."
     },
     {
-        "_id": ObjectID(),
         "skill": ["zepto"],
         "response": "Yes, a little",
         "story": "Martijn has really only used Zepto to check out jQuery alternatives."
     },
     {
-        "_id": ObjectID(),
         "skill": ["mysql"],
         "response": "Yes!",
         "story": "Though Martijn has since moved on to Postgresql, he has a lot of experience working with MySQL servers"
     },
     {
-        "_id": ObjectID(),
         "skill": ["pg", "postgresql", "psql"],
         "response": "Yep",
         "story": "Postgres is Martijn's main relational database choice. Especially in combination with Django."
     },
     {
-        "_id": ObjectID(),
         "skill": ["mongodb"],
         "response": "Yep",
         "story": "Though he just started using MongoDB. So he can get it to work, (I mean, what you are reading now comes from MongoDB) but there is still a lot to learn."
     },
     {
-        "_id": ObjectID(),
         "skill": ["databases", "dba", "db", "sql"],
         "response": "Yes",
         "story": "Though the question is a bit ambiguous, Martijn has experience with several relational databases (MySQL, Postgresql) and a few nonrelational databases / key-value stores (MongoDB, Redis, memcached)"
     },
     {
-        "_id": ObjectID(),
         "skill": ["git", "github"],
         "response": "Yup",
         "story": "Martijn knows git. Specifically he really likes gitflow and uses bitbucket as his main provider"
     },
     {
-        "_id": ObjectID(),
         "skill": ["hg", "mecurial"],
         "response": "Not so much",
         "story": "Martijn uses git more. But has some experience using hg."
     },
     {
-        "_id": ObjectID(),
         "skill": ["svn", "subversion"],
         "response": "Yes",
         "story": "Before git, svn was what Martijn was using. So he knows."
     },
     {
-        "_id": ObjectID(),
         "skill": ["english"],
         "response": "Awhyeah",
         "story": "Yes, martijn can do english. While asking it like that is a bit weird. I mean; Who 'does' english? But other then that, yes. Yes he can do. He will understand what you are saying."
     },
     {
-        "_id": ObjectID(),
         "skill": ["dutch"],
         "response": "Ja",
         "story": "Martijn is stiekem gewoon Nederlands, dus al dat engels op deze site is puur voor de internationals onder ons. Zolang wij elkaar maar begrijpen toch?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["german"],
         "response": "Ja, eh, nein",
         "story": "German is not Marijn's strongest language. As in; he can understand a little and write even less."
     },
     {
-        "_id": ObjectID(),
         "skill": ["french"],
         "response": "Non",
         "story": "Je ne parle pas français"
     },
     {
-        "_id": ObjectID(),
         "skill": ["japanese"],
         "response": "いいえ",
         "story": "彼は本当に学びたいです。しかし、今ちょうどGoogleが物事を成し遂げるために翻訳使用されています。"
     },
     {
-        "_id": ObjectID(),
         "skill": ["photoshop"],
         "response": "A little",
         "story": "Martijn has little Photoshop knowledge. He is more a 'Sketch' guy and not really a visual designer. Martijn uses it merely as a tool to interpret designs from people who know what they're doing."
     },
     {
-        "_id": ObjectID(),
         "skill": ["illustrator"],
         "response": "No",
         "story": "No illustrator experience, none."
     },
     {
-        "_id": ObjectID(),
         "skill": ["sketch"],
         "response": "Yes, somewhat",
         "story": "If Martijn had to use a tool to design something; it would be Sketch. Martijn has a few years of experience using it at Fabrique, working together with designerfolk"
     },
     {
-        "_id": ObjectID(),
         "skill": ["flash", "swf"],
         "response": "Ah nope",
         "story": "Well, with playing games and, you know, when flash was still cool. But developing things. No. "
     },
     {
-        "_id": ObjectID(),
         "skill": ["react", "flux"],
         "response": "Yes",
         "story": "While developing whitestone.io Marko and Martijn used react, and flux for that matter, to build things. Martijn is still leaning though."
     },
     {
-        "_id": ObjectID(),
         "skill": ["angular", "angular.js", "angularjs"],
         "response": "Nope",
         "story": "Martijn has not had a chance to use Angular yet. And to be honest, react seems like a better choice."
     },
     {
-        "_id": ObjectID(),
         "skill": ["node", "nodejs", "node.js"],
         "response": "A little bit",
         "story": "Martijn has chosen to use node and express to build this thing you're looking at. You know, just to play arround a bit."
     },
     {
-        "_id": ObjectID(),
         "skill": ["express"],
         "response": "Somewhat",
         "story": "Actually, Martijn has used this only once before, building this site. But he's interrested though."
     },
     {
-        "_id": ObjectID(),
         "skill": ["linux"],
         "response": "Yes",
         "story": "And to be specific; Debian based Linux preferably. Mainly Ubuntu to be precise. Martijn has always been a big open source guy. He dreams of RMS's beard and is thinking about getting a GPL tattoo."
     },
     {
-        "_id": ObjectID(),
         "skill": ["ms", "windows", "microsoft", "azure"],
         "response": "Ah nope",
         "story": "Microsoft tech has never really been Martijn's thing. While Azure sounds awesome, he has never taken steps to learn."
     },
     {
-        "_id": ObjectID(),
         "skill": ["osx"],
         "response": "Yes",
         "story": "OSX is Martijn's workhorse OS. A few year ago he switched from windows to mac, and has never looked back since."
     },
     {
-        "_id": ObjectID(),
         "skill": ["you", "me"],
         "response": "Uhmm..",
         "story": "Maybe? We should definitly get to know eachother first. And what do you mean 'do'?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["coffee"],
         "response": "Yes but...",
         "story": "Martijn has been going caffeine free from time to time. He's more of a tea guy."
     },
     {
-        "_id": ObjectID(),
         "skill": ["tea"],
         "response": "Yes",
         "story": "Tea makes Martijn happy. Be it early grey, rooibos or single estate FBOP ceylon. Its all good baby. Shall we go drink one and talk about what makes us happy?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["zen", "meditation"],
         "response": "Ommm",
         "story": "Martijn is a true treehugger. He will hug the shit out of that tree. Martijn has many years experience with mediation and goes to retreats many times a year."
     },
     {
-        "_id": ObjectID(),
         "skill": ["yoga"],
         "response": "Yes and no",
         "story": "Martijn usually does yoga on a retreat, but its not part of his main routine."
     },
     {
-        "_id": ObjectID(),
         "skill": ["football"],
         "response": "Yes",
         "story": "While Martijn doesn't like to play on a field, he does know a few tricks."
     },
     {
-        "_id": ObjectID(),
         "skill": ["animation"],
         "response": "Yes and no",
         "story": "It's not Martijn's strong point, but he does have some experience with creating CSS3 animations and getting stuff to wiggle on a website."
     },
     {
-        "_id": ObjectID(),
         "skill": ["ramen"],
         "response": "No",
         "story": "But he's trying. Ramen is hard man!"
     },
     {
-        "_id": ObjectID(),
         "skill": ["grunt", "gulp"],
         "response": "Yes",
         "story": "But! He's been going full npm scripts lately, because he can."
     },
     {
-        "_id": ObjectID(),
         "skill": ["npm"],
         "response": "Well, yes",
         "story": "This site wouldn't be the same without npm. There is no way arround it nowadays."
     },
     {
-        "_id": ObjectID(),
         "skill": ["webpack"],
         "response": "Yes-ish",
         "story": "Martijn is still learning, but there is some experience with webpack. Also in combination with React."
     },
     {
-        "_id": ObjectID(),
         "skill": ["sass", "scss"],
         "response": "YesYes.",
         "story": "To be specific, Martijn hates SASS, but loves SCSS. Brackets baby. BRACKETS!!!"
     },
     {
-        "_id": ObjectID(),
         "skill": ["less"],
         "response": "No",
         "story": "Martijn has chosen SCSS over LESS. Though both are similar and Martijn shouldn't have problems creating stuff in Less, he has never actually used it."
     },
     {
-        "_id": ObjectID(),
         "skill": ["apache"],
         "response": "Yes",
         "story": "Many many many years of Apache experience flow through his veins."
     },
     {
-        "_id": ObjectID(),
         "skill": ["nginx"],
         "response": "Yes",
         "story": "Replacing Apache in many projects now. Nginx is now a default in Martijn's toolbox."
     },
     {
-        "_id": ObjectID(),
         "skill": ["varnish"],
         "response": "So so ...",
         "story": "Martijn has worked on a few very high performant websites which use varnish. But he is still a bit new with this."
     },
     {
-        "_id": ObjectID(),
         "skill": ["c#"],
         "response": "Nope",
         "story": "Martijn has never used C# before."
     },
     {
-        "_id": ObjectID(),
         "skill": ["c++"],
         "response": "Nope",
         "story": "Yeah, no. No c++."
     },
     {
-        "_id": ObjectID(),
         "skill": ["c"],
         "response": "Yes, but no.",
         "story": "Seriously, how old are you anyway?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["objective-c", "objectivec"],
         "response": "Not really",
         "story": "Martijn has worked on a few iOS apps, but to say that he has any worthwhile; no not really. And, he'd probably go with Swift if he had the choice now."
     },
     {
-        "_id": ObjectID(),
         "skill": ["swift"],
         "response": "No",
         "story": "Martijn has no experience with Swift as of now. He has bought a couple of books though, so things are looking up."
     },
     {
-        "_id": ObjectID(),
         "skill": ["memcached"],
         "response": "Yes",
         "story": "Memcached is martijn's primary caching choice."
     },
     {
-        "_id": ObjectID(),
         "skill": ["elasticsearch"],
         "response": "A little",
         "story": "Martijn has basic understanding of Elasticsearch and has used it as the main search engine for a couple of sites, usually in combination with Haystack"
     },
     {
-        "_id": ObjectID(),
         "skill": ["celery"],
         "response": "A little",
         "story": "Martijn has used Celery and Redis in Whitestone.io for task automation. But his knowledge does not go very deep."
     },
     {
-        "_id": ObjectID(),
         "skill": ["api", "apis", "api's", "rest"],
         "response": "Yes...",
         "story": "Martijn has a lot of experience developing API's and connecting with API's. So which are you looking for?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["oauth"],
         "response": "Yes...",
         "story": "Martijn has setup oauth flows before. Most recently in combination with python-oauth."
     },
     {
-        "_id": ObjectID(),
         "skill": ["security"],
         "response": "Yes",
         "story": "Martijn has a great interrest in security and keeping data safe. While he is by no means a security expert, he try's to keep up to date."
     },
     {
-        "_id": ObjectID(),
         "skill": ["riot"],
         "response": "No",
         "story": "But life is a riot no?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["ios"],
         "response": "Not really",
         "story": "He has build a total of 3 apps. All of them were build using a UIWebView wrapper-ish style."
     },
     {
-        "_id": ObjectID(),
         "skill": ["backbone"],
         "response": "No",
         "story": "Martijn totaly missed the whole Backbone phase. He went straight to React."
     },
     {
-        "_id": ObjectID(),
         "skill": ["emacs"],
         "response": "NO!",
         "story": "Martijn has a VIM tattoo on his knuckles. Need I say more?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["vim", "vi"],
         "response": "Ah yes",
         "story": "Ah lovely VIM. VIM VIM VIM. Martijn's muse and secret love affair for over 10 years now. While he is starting to transition to Atom now, VIM will forever stay in his heart. #neverforget"
     },
     {
-        "_id": ObjectID(),
         "skill": ["atom"],
         "response": "Yes",
         "story": "VIM's shiny new replacement. Martijn starting playing around with Atom in 2016. With VIM key bindings of course."
     },
     {
-        "_id": ObjectID(),
         "skill": ["processing", "p5", "p5.js", "processing.js"],
         "response": "A little",
         "story": "Martijn has done a couple of processing projects. He doesn't like it though. Martijn thinks the framework is a bit sloppy and has a lot of magic."
     },
     {
-        "_id": ObjectID(),
         "skill": ["jade"],
         "response": "Yes",
         "story": "Martijn has used Jade. This site uses jade for example"
     },
     {
-        "_id": ObjectID(),
         "skill": ["handlebars", "mustache"],
         "response": "Yes",
         "story": "Handlebars is Martijn's go to clientside templating language / framework."
     },
     {
-        "_id": ObjectID(),
         "skill": ["unicode", "utf8", "multilanguage"],
         "response": "Yes",
         "story": "Martijn has a lot of experience creating multilanguage websites, which requires a decent understading of unicode and specificly utf8. Martijn has gotten his insights from Joel."
     },
     {
-        "_id": ObjectID(),
         "skill": ["bash"],
         "response": "Yes",
         "story": "Martijn spends a lot of his in the terminal. He is like a fish in water when grepping and |ing."
     },
     {
-        "_id": ObjectID(),
         "skill": ["https", "ssl", "tls"],
         "response": "Yes",
         "story": "Martijn has experience with https. Setting it up, registering certificates, the works. A+ ratings make him happy. Letsencrypt too."
     },
     {
-        "_id": ObjectID(),
         "skill": ["awesomeness"],
         "response": "Yah duh",
         "story": "Seriously, did you expect anything less?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["my garden"],
         "response": "No",
         "story": "Do your own damn garden."
     },
     {
-        "_id": ObjectID(),
         "skill": ["cooking"],
         "response": "Yes",
         "story": "What would you like to eat?"
     },
     {
-        "_id": ObjectID(),
         "skill": ["massage", "massages"],
         "response": "Yes",
         "story": "Where do you need me to pound your meat?"
