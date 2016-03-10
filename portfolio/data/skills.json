@@ -422,7 +422,7 @@
     {
         "skill": ["beer"],
         "response": "Yes, oh dear god yes",
-        "story": "Martijn is a total beersnob. Checkout his profile on <a href=\"https://untappd.com/user/martijngorree\">Untappd</a>."
+        "story": "Martijn is a total beersnob. Checkout his profile on <a href=\"https://untappd.com/user/martijngorree\" target=\"_blank\">Untappd</a>."
     },
     {
         "skill": ["dancing"],

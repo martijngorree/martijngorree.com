@@ -10465,7 +10465,7 @@
 
 	  return "<div class=\"exp-bingo__answer__title\">"
 	    + container.escapeExpression(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"title","hash":{},"data":data}) : helper)))
-	    + "</div>\n<div class=\"exp-bingo__answer__descr\">!"
+	    + "</div>\n<div class=\"exp-bingo__answer__descr\">"
 	    + ((stack1 = ((helper = (helper = helpers.descr || (depth0 != null ? depth0.descr : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"descr","hash":{},"data":data}) : helper))) != null ? stack1 : "")
 	    + "</div>\n";
 	},"useData":true});
