@@ -125,6 +125,17 @@
                 text-align: justify;
                 font-size: 100%;
             }
+
+            a {
+                color: $monkey-red;
+                border-color: $monkey-red;
+                border-width: 2px;
+                &:hover,
+                &:active {
+                    color: $white;
+                    border-color: $white;
+                }
+            }
         }
 
         @include mappy-bp(large) {
