@@ -100,7 +100,16 @@
         margin: 1em auto;
         min-height: 300px;
         border: 20px solid white;
-        font-size: $font-size-large;
+
+        font-size: $font-size-default;
+
+        @include mappy-bp(medium) {
+            font-size: $font-size-default;
+        }
+        @include mappy-bp(xlarge) {
+            font-size: $font-size-large;
+        }
+
         background-image: url(/images/monkey.svg);
         background-repeat: no-repeat;
         background-position: center 25%;
@@ -119,11 +128,9 @@
         }
         &__descr {
             padding: .5em;
-            font-size: 75%;
             @include mappy-bp(medium) {
                 padding: 1em;
                 text-align: justify;
-                font-size: 100%;
             }
 
             a {

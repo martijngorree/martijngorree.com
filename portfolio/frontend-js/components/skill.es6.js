@@ -10,7 +10,7 @@ var SkillWidget = objectory((obj) => {
     const defaultSkill = {
         response: 'Oh ehm, what?',
         skill: '',
-        story: "It seems you've found something unknown. Maybe its better you just send an email. You know, so we can discus this thing in person."
+        story: "It seems you've found something unknown. Apparently Martijn does not have an answer to everything. Maybe its better you just send an email. You know, just to be sure."
     }
 
     var skillsApi = SkillsApi();
@@ -28,8 +28,13 @@ var SkillWidget = objectory((obj) => {
 
     obj.bindEvents = (elem_id) => {
 
+        $("#"+elem_id+" .js-form input[type=text]").on('focus', (evt) => {
+            $(evt.target).val("");
+        });
+
         $("#"+elem_id+" .js-form").on('submit', (evt) => {
             evt.preventDefault();
+            $(":focus").trigger("blur");
 
             let skill_input = $("#"+elem_id+" input[name=skill]").val().toLowerCase();
 

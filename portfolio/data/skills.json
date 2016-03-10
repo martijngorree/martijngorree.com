@@ -22,7 +22,7 @@
     {
         "skill": ["javascript", "js"],
         "response": "Yup",
-        "story": "Martijn can handle es5 and has trainingwheels on es2015. This thing you're looking at has a lot of javascript, click the gitbug link at the top to check it out."
+        "story": "Martijn can handle es5 and has his trainingwheels on for es2015. This thing you're looking at now has a lot of javascript, click the github link at the top to check it out."
     },
     {
         "skill": ["css", "css3"],
@@ -417,7 +417,7 @@
     {
         "skill": ["yo momma"],
         "response": "No",
-        "story": "Do your own momma. Shiiitttttt"
+        "story": "Do your own momma. Shiiitttttt."
     },
     {
         "skill": ["beer"],
@@ -497,7 +497,7 @@
     {
         "skill": ["a lot"],
         "response": "Yes",
-        "story": "While it does depend on the type of work. Martijn is known to do a lot"
+        "story": "While it does depend on the type of work. Martijn is known to do a lot."
     },
     {
         "skill": ["sit"],
@@ -505,8 +505,73 @@
         "story": "Walk, sit, run. Nothing is too silly for Martijn."
     },
     {
-        "skill": ["karaoke"],
+        "skill": ["pasta"],
         "response": "Yes",
-        "story": "But don't expect it to sound good. Because it won't."
+        "story": "Martijn can do pasta well. Spaghetti, linguine, penne, ravioli, tortellini. Al dente all the things yo."
+    },
+    {
+        "skill": ["ice cream"],
+        "response": "It depends",
+        "story": "Do you mean eating or making. Because Martijn likes to eat ice cream, but has never actually made it himself."
+    },
+    {
+        "skill": ["it"],
+        "response": "Yes",
+        "story": "It makes the world go round. #justsaying"
+    },
+    {
+        "skill": ["crazy"],
+        "response": "Yes",
+        "story": "But I don't think you are ready for that kind of crazy. Are you?"
+    },
+    {
+        "skill": ["hug", "hugging"],
+        "response": "Yes, oh yes.",
+        "story": "Martijn is a self proclaimed hugging expert. He will hug people, trees even small animals. There is little he will not hug."
+    },
+    {
+        "skill": ["stuff"],
+        "response": "Yes",
+        "story": "Martijn does a lot of stuff. Small stuff, big stuff, difficult stuff, clean stuff."
+    },
+    {
+        "skill": ["design"],
+        "response": "Its complicated",
+        "story": "Martijn likes good design, but he does need to work with good designers to make things shine."
+    },
+    {
+        "skill": ["headstand", "a headstand"],
+        "response": "No",
+        "story": "You shouldn't ask Martijn to stand on his head. Just don't."
+    },
+    {
+        "skill": ["girls"],
+        "response": "No",
+        "story": "What are these mystical 'girls' you are talking about? We live in the new age people. Gender stereotypes be so 1999."
+    },
+    {
+        "skill": ["shit"],
+        "response": "Yes",
+        "story": "Martijn can do some crazy shit. But he is also know to be able to handle his shit, and can deal with situations where shit hits the fan."
+    },
+    {
+        "skill": ["animals"],
+        "response": "Yes",
+        "story": "But he has a problem with balloon animals."
+    },
+    {
+        "skill": ["sarcasm"],
+        "response": "No, yes",
+        "story": "As all people born in Rotterdam have a knack for sarcasm, Martijn is no stanger to its subtle and not so subtle intricacies."
+    },
+    {
+        "skill": ["criticism", "critique"],
+        "response": "Yes",
+        "story": "As a good dutch citizen Martijn can critique the shit out of things. He can also handle critisism pretty well. But its best that you find this out for yourself."
+    },
+    {
+        "skill": ["cookies"],
+        "response": "Yes, but...",
+        "story": "Are we talking about browser cookies? Or those awesome flaky oatmeal cookies from Koelela which, if you bring some, would make Martijn very happy."
     }
 ]

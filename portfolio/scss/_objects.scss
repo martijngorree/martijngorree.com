@@ -10,6 +10,12 @@
     height: 32px;
     display: inline-block;
 }
+.emoji {
+    width: 30px;
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+}
 .btn {
     line-height: 1.5;
     text-decoration: none;

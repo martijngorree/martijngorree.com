@@ -102,7 +102,7 @@
 	    var defaultSkill = {
 	        response: 'Oh ehm, what?',
 	        skill: '',
-	        story: "It seems you've found something unknown. Maybe its better you just send an email. You know, so we can discus this thing in person."
+	        story: "It seems you've found something unknown. Apparently Martijn does not have an answer to everything. Maybe its better you just send an email. You know, just to be sure."
 	    };
 
 	    var skillsApi = (0, _skillsapi2.default)();
@@ -120,8 +120,13 @@
 
 	    obj.bindEvents = function (elem_id) {
 
+	        (0, _jquery2.default)("#" + elem_id + " .js-form input[type=text]").on('focus', function (evt) {
+	            (0, _jquery2.default)(evt.target).val("");
+	        });
+
 	        (0, _jquery2.default)("#" + elem_id + " .js-form").on('submit', function (evt) {
 	            evt.preventDefault();
+	            (0, _jquery2.default)(":focus").trigger("blur");
 
 	            var skill_input = (0, _jquery2.default)("#" + elem_id + " input[name=skill]").val().toLowerCase();
 
