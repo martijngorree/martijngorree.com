@@ -19,21 +19,19 @@ var SkillWidget = objectory((obj) => {
         $("#"+elem_id+" .js-answer").html(answer_template({
             title: data['response'],
             descr: data['story']
-        }));
+        })).addClass("answered");
     }
 
     var clearAnswer = (elem_id) => {
-        $("#"+elem_id+" .js-answer").html("")
+        $("#"+elem_id+" .js-answer").html("").removeClass("answered")
     }
 
     obj.bindEvents = (elem_id) => {
 
-        $("#"+elem_id+" .js-form input[type=text]").focus();
-
         $("#"+elem_id+" .js-form").on('submit', (evt) => {
             evt.preventDefault();
 
-            let skill_input = $("#"+elem_id+" input[name=skill]").val();
+            let skill_input = $("#"+elem_id+" input[name=skill]").val().toLowerCase();
 
             if(skill_input != "") {
                 let api_url = path.join(skillsApi.API_ENDPOINT, skill_input);

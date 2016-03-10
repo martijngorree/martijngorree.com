@@ -111,21 +111,19 @@
 	        (0, _jquery2.default)("#" + elem_id + " .js-answer").html((0, _answer2.default)({
 	            title: data['response'],
 	            descr: data['story']
-	        }));
+	        })).addClass("answered");
 	    };
 
 	    var clearAnswer = function clearAnswer(elem_id) {
-	        (0, _jquery2.default)("#" + elem_id + " .js-answer").html("");
+	        (0, _jquery2.default)("#" + elem_id + " .js-answer").html("").removeClass("answered");
 	    };
 
 	    obj.bindEvents = function (elem_id) {
 
-	        (0, _jquery2.default)("#" + elem_id + " .js-form input[type=text]").focus();
-
 	        (0, _jquery2.default)("#" + elem_id + " .js-form").on('submit', function (evt) {
 	            evt.preventDefault();
 
-	            var skill_input = (0, _jquery2.default)("#" + elem_id + " input[name=skill]").val();
+	            var skill_input = (0, _jquery2.default)("#" + elem_id + " input[name=skill]").val().toLowerCase();
 
 	            if (skill_input != "") {
 	                var api_url = _path2.default.join(skillsApi.API_ENDPOINT, skill_input);

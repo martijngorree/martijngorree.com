@@ -19,6 +19,7 @@
     text-align: center;
     background: $monkey-red;
     color: $white;
+    @include transition(color 100ms linear);
 
     @include mappy-bp(medium) {
         font-size: $font-size-default;
@@ -30,6 +31,6 @@
     &:hover {
         border-bottom: 0;
         background: $white;
-        color: $black;
+        color: $monkey-red;
     }
 }

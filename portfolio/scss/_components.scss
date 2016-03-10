@@ -20,7 +20,6 @@
 
 .intro {
     background-image: url(/images/background.jpg);
-    background-image: url(/images/background.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -38,6 +37,11 @@
     &__subheader--link:visited {
         color: $monkey-earth;
         border-color: $monkey-earth;
+        &:hover,
+        &:active {
+            color: $white;
+            border-color: $white;
+        }
     }
     &__cta {
     }
@@ -62,6 +66,7 @@
                 font-size: $font-size-xlarge;
             }
         }
+
 
         &__input {
             background: rgba(255, 255, 255, .5);
@@ -90,11 +95,21 @@
     &__answer {
         @include clearfix;
         @include span(12 of 12);
+        background: rgba(255, 255, 255, .5);
         float: none;
         margin: 1em auto;
+        min-height: 300px;
+        border: 20px solid white;
         font-size: $font-size-large;
-        background: rgba(255, 255, 255, .5);
+        background-image: url(/images/monkey.svg);
+        background-repeat: no-repeat;
+        background-position: center 25%;
+        background-size: 200px 200px;
         color: $black;
+
+        &.answered {
+            background-image: none;
+        }
 
         &__title {
             width: 100%;
@@ -103,9 +118,10 @@
             font-size: 150%;
         }
         &__descr {
-            padding: 10px;
+            padding: .5em;
             font-size: 75%;
             @include mappy-bp(medium) {
+                padding: 1em;
                 text-align: justify;
                 font-size: 100%;
             }
@@ -116,15 +132,5 @@
             float: none;
         }
 
-        @include mappy-bp(xlarge) {
-            @include span(6 of 12);
-            float: none;
-        }
     }
-}
-
-footer {
-    text-align: center;
-    padding-top: 1em;
-
 }
