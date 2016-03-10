@@ -12,7 +12,7 @@
     {
         "skill": ["django"],
         "response": "Yes",
-        "story": "Django is Martijn's framework of choice. He's been playing arround with this since 0.9 and has been instrumental in the introduction at Fabrique. Martijn is also involved with DjangoGirls, trying to get women interrested in programming"
+        "story": "Django is Martijn's framework of choice. He's been playing around with this since 0.9 and has been instrumental in the introduction at Fabrique. Martijn is also involved with DjangoGirls, trying to get women interrested in programming"
     },
     {
         "skill": ["teaching", "coaching"],
@@ -112,7 +112,7 @@
     {
         "skill": ["english"],
         "response": "Awhyeah",
-        "story": "Yes, martijn can do english. While asking it like that is a bit weird. I mean; Who 'does' english? But other then that, yes. Yes he can do. He will understand what you are saying."
+        "story": "Yes, Martijn can do english. While asking it like that is a bit weird. I mean; Who 'does' english? But other then that, yes. Yes he can do. He will understand what you are saying."
     },
     {
         "skill": ["dutch"],
@@ -297,7 +297,7 @@
     {
         "skill": ["memcached"],
         "response": "Yes",
-        "story": "Memcached is martijn's primary caching choice."
+        "story": "Memcached is Martijn's primary caching choice."
     },
     {
         "skill": ["elasticsearch"],
@@ -333,6 +333,11 @@
         "skill": ["ios"],
         "response": "Not really",
         "story": "He has build a total of 3 apps. All of them were build using a UIWebView wrapper-ish style."
+    },
+    {
+        "skill": ["ionic"],
+        "response": "Ah nope",
+        "story": "Martijn has heard about it, but unfortunatly no, no experience to be found here."
     },
     {
         "skill": ["backbone"],
@@ -403,5 +408,105 @@
         "skill": ["massage", "massages"],
         "response": "Yes",
         "story": "Where do you need me to pound your meat?"
+    },
+    {
+        "skill": ["kissing", "kisses"],
+        "response": "Yes",
+        "story": "A little peck on the cheek, Smooching, Frenching. Martijn can do it all."
+    },
+    {
+        "skill": ["yo momma"],
+        "response": "No",
+        "story": "Do your own momma. Shiiitttttt"
+    },
+    {
+        "skill": ["beer"],
+        "response": "Yes, oh dear god yes",
+        "story": "Martijn is a total beersnob. Checkout his profile on <a href=\"https://untappd.com/user/martijngorree\">Untappd</a>."
+    },
+    {
+        "skill": ["dancing"],
+        "response": "Ehm, hello! Yes",
+        "story": "Martijn will dance his ass of. When he feels like it. When its not too crowded, and the music is just right. But then, then its a sight to behold."
+    },
+    {
+        "skill": ["code"],
+        "response": "Yes",
+        "story": "Dude. Wtf. Of course. Depends on the code though. But yes. Code. He can do that shit."
+    },
+    {
+        "skill": ["binary"],
+        "response": "1",
+        "story": "Little endian or big endian byte order? Hmm? HMMM???"
+    },
+    {
+        "skill": ["things"],
+        "response": "Yes",
+        "story": "Big things, little things, amazing things. Martijn can do many things."
+    },
+    {
+        "skill": ["anything"],
+        "response": "No",
+        "story": "Martijn can do a great many things. But there are limits. Like the speed of light."
+    },
+    {
+        "skill": ["something"],
+        "response": "Yes",
+        "story": "Did you just type in exactly what the placeholder said? How boring. Try harder, be better."
+    },
+    {
+        "skill": ["tequila"],
+        "response": "Yes, wait. NO",
+        "story": "Martijn has don tequila and tequila has done Martijn. Things did not end well."
+    },
+    {
+        "skill": ["alcohol"],
+        "response": "Yes",
+        "story": "But not too much. Martijn has done the hangover puking thing and he does not like it. If you decide to feed him something alcoholic then either beer (the good kind), whisky (the expensive stuff) or gin are the way to go."
+    },
+    {
+        "skill": ["walk", "walking"],
+        "response": "Yes",
+        "story": "Depends a bit on the level of alcohol in his blood. But yes. Generally he walks just fine."
+    },
+    {
+        "skill": ["sit", "sitting"],
+        "response": "Yes",
+        "story": "Walk, sit, run. Nothing is too silly for Martijn."
+    },
+    {
+        "skill": ["boogie"],
+        "response": "Yes",
+        "story": "Martijn has much boogie. Such woogie."
+    },
+    {
+        "skill": ["run", "running"],
+        "response": "Yes",
+        "story": "Run! Where to?"
+    },
+    {
+        "skill": ["drugs"],
+        "response": "No",
+        "story": "Don't do drugs man. Just don't. Think about the children man!"
+    },
+    {
+        "skill": ["guns"],
+        "response": "Yes",
+        "story": "While he is apprehensive in saying this. Yes, he has experience with guns. As a teenager he was a member of a gun club and has competed in tournaments. He no longer enjoys this though and is against private gun ownership."
+    },
+    {
+        "skill": ["a lot"],
+        "response": "Yes",
+        "story": "While it does depend on the type of work. Martijn is known to do a lot"
+    },
+    {
+        "skill": ["sit"],
+        "response": "Yes",
+        "story": "Walk, sit, run. Nothing is too silly for Martijn."
+    },
+    {
+        "skill": ["karaoke"],
+        "response": "Yes",
+        "story": "But don't expect it to sound good. Because it won't."
     }
 ]
