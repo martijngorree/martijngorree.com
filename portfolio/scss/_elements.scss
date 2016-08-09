@@ -8,8 +8,13 @@ h1 {
     @include mappy-bp(medium) {
         font-size: $font-size-xlarge;
     }
-    @include mappy-bp(xlarge) {
-        font-size: $font-size-xxlarge;
+}
+
+h2 {
+    font-size: $font-size-medium;
+    line-height: 1.2;
+    @include mappy-bp(medium) {
+        font-size: $font-size-medium;
     }
 }
 

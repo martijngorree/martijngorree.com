@@ -2,7 +2,7 @@
 .highlight {
     color: $monkey-earth;
     display: inline;
-    a& {
+    a & {
         border-color: $monkey-earth;
     }
 }
@@ -100,6 +100,7 @@
         margin: 1em auto;
         min-height: 300px;
         border: 20px solid white;
+        text-align: left;
 
         font-size: $font-size-default;
 
@@ -125,6 +126,10 @@
             color: $black;
             padding: .5em;
             font-size: 150%;
+            @include mappy-bp(medium) {
+                padding: 1em;
+                text-align: justify;
+            }
         }
         &__descr {
             padding: .5em;

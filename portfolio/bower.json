@@ -20,7 +20,7 @@
   ],
   "dependencies": {
     "susy": "^2.2.12",
-    "bourbon": "^4.2.6",
+    "bourbon": "^4.2.7",
     "mappy-breakpoints": "^0.2.1"
   }
 }
