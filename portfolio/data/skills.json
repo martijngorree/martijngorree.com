@@ -158,7 +158,7 @@
     {
         "skill": ["react", "flux"],
         "response": "Yes",
-        "story": "While developing whitestone.io Marko and Martijn used react, and flux for that matter, to build things. Martijn is still leaning though."
+        "story": "While developing whitestone.io Marko and Martijn used react, and flux for that matter, to build things. Martijn is still learning though."
     },
     {
         "skill": ["angular", "angular.js", "angularjs"],
@@ -573,6 +573,6 @@
     {
         "skill": ["cookies"],
         "response": "Yes, but...",
-        "story": "Are we talking about browser cookies? Or those awesome flaky oatmeal cookies from Koelela which, if you bring some, would make Martijn very happy."
+        "story": "Are we talking about browser cookies? Or those awesome flaky oatmeal cookies from Koekela which, if you bring some, would make Martijn very happy."
     }
 ]
