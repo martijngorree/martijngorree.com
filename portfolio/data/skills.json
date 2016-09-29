@@ -2,12 +2,12 @@
     {
         "skill": ["php", "php5"],
         "response": "Yes",
-        "story": "Its been a while ago, but Martijn is a Zend Engineer and grew up with php. Not his favorite language in the world though as he prefers Python."
+        "story": "Its been a while ago, but Martijn is a Zend Engineer and grew up writing php. He can hack it but he prefers Python"
     },
     {
         "skill": ["python", "py"],
-        "response": "Fuck yes",
-        "story": "Actually Martijn loves the Python. It makes him happy."
+        "response": "Yes, yes he can",
+        "story": "Actually Martijn loves the Python. It makes him happy"
     },
     {
         "skill": ["django"],
@@ -16,49 +16,53 @@
     },
     {
         "skill": ["teaching", "coaching"],
-        "response": "Yes he can",
-        "story": "Martijn loves this shit. He has been a coach at DjangoGirls and Codementor and has many years of experience showing fellow collegues the way of Python and the Django."
+        "response": "Yes, he'd like to",
+        "story": "Martijn loves this shit. He has been a coach at DjangoGirls and Codementor and has many years of experience showing fellow collegues the way of Python and the Django"
     },
     {
         "skill": ["javascript", "js"],
         "response": "Yup",
-        "story": "Martijn can handle es5 and has his trainingwheels on for es2015. This thing you're looking at now has a lot of javascript, click the github link at the top to check it out."
+        "story": "Martijn can handle es5 and has his trainingwheels on for es2015. This thing you're looking at now has a lot of javascript, click the github link at the top to check it out"
     },
     {
         "skill": ["css", "css3"],
         "response": "Of course",
-        "story": "I mean, what did you expect? Martijn has many years experience playing arround with CSS. Usually in combination with SCSS."
+        "story": "I mean, what did you expect? Martijn has many years experience playing arround with CSS. Usually in combination with SCSS"
     },
-
+    {
+        "skill": ["grid", "grids", "grid systems", "gridsystems"],
+        "response": "Of course",
+        "story": "Grids man. He loves it. Grids make the world nice and tidy. Now if designers could actually understand them, that'd be great"
+    },
     {
         "skill": ["html", "html5"],
         "response": "Of course",
-        "story": "HTML is a good friend of Martijn. Its what underpins all of his websites <img src=\"/images/hah.svg\" class=\"emoji\" alt=\"hah\">."
+        "story": "HTML is a good friend of Martijn. Things on the web do tend to need it <img src=\"/images/hah.svg\" class=\"emoji\" alt=\"hah\">"
     },
     {
         "skill": ["drempelvrij", "wcag", "accessibility", "webrichtlijnen", "aria"],
         "response": "Yes",
-        "story": "Martijn has a thorough knowledge of accessibility standards. He has done work on many government websites where level AAA conformance is mandatory."
+        "story": "Martijn has a thorough knowledge of accessibility standards. He has done work on many government websites where level AAA conformance is mandatory"
     },
     {
         "skill": ["wordpress", "wp"],
         "response": "Yes, but so so",
-        "story": "Wordpress is not something Martijn has spend a lot of time on. But he has a little experience and can probably build anything you like."
+        "story": "Wordpress is not something Martijn has spent a lot of time on. But he has some experience and can probably build anything you like. He tends to prefer wagtail though"
     },
     {
         "skill": ["joomla"],
         "response": "Nope nope nope",
-        "story": "Joomla sucks the balls. So nope, no experence and also no willingness to learn. Please go away."
+        "story": "Joomla sucks the balls. So nope, no experience and also no willingness to learn. Please, just don't"
     },
     {
         "skill": ["laravel"],
-        "response": "No, but...",
-        "story": "If Martijn would have to build something with PHP then Laravel would be at the top of list-of-things-to-use."
+        "response": "No, but..",
+        "story": "If Martijn would have to build something with PHP then Laravel would be at the top of list-of-things-to-use"
     },
     {
         "skill": ["symfony"],
         "response": "No, well yes, but no",
-        "story": "Martijn has built things with symfony, but that is so long ago that its best to consider this to be a 'no'"
+        "story": "Martijn has built things with symfony, but it's been so long ago that it's best to consider this to be a 'no'"
     },
     {
         "skill": ["rails", "ror", "ruby"],
@@ -68,12 +72,12 @@
     {
         "skill": ["jquery"],
         "response": "Yes!",
-        "story": "jQuery is Martijn's workhorse. While he has also used other frameworks like zepto, jquery is still his main squeeze."
+        "story": "jQuery is Martijn's workhorse. While he has also used other frameworks like zepto, jquery is still his main squeeze"
     },
     {
         "skill": ["zepto"],
         "response": "Yes, a little",
-        "story": "Martijn has really only used Zepto to check out jQuery alternatives."
+        "story": "Martijn has really only used Zepto to check out jQuery alternatives"
     },
     {
         "skill": ["mysql"],
@@ -83,12 +87,12 @@
     {
         "skill": ["pg", "postgresql", "psql"],
         "response": "Yep",
-        "story": "Postgres is Martijn's main relational database choice. Especially in combination with Django."
+        "story": "Postgres is Martijn's main relational database choice. Especially in combination with Django"
     },
     {
         "skill": ["mongodb"],
         "response": "Yep",
-        "story": "Though he just started using MongoDB. So he can get it to work, (I mean, what you are reading now comes from MongoDB) but there is still a lot to learn."
+        "story": "Though he just started using MongoDB. So he can get it to work, (I mean, what you are reading now comes from MongoDB) but there is still a lot to learn"
     },
     {
         "skill": ["databases", "dba", "db", "sql"],
@@ -103,17 +107,17 @@
     {
         "skill": ["hg", "mecurial"],
         "response": "Not so much",
-        "story": "Martijn uses git more. But has some experience using hg."
+        "story": "Martijn uses git more. But has some experience using hg"
     },
     {
         "skill": ["svn", "subversion"],
         "response": "Yes",
-        "story": "Before git, svn was what Martijn was using. So he knows."
+        "story": "Before git, svn was what Martijn was using. So he knows. He knows very well"
     },
     {
         "skill": ["english"],
         "response": "Awhyeah",
-        "story": "Yes, Martijn can do english. While asking it like that is a bit weird. I mean; Who 'does' english? But other then that, yes. Yes he can do. He will understand what you are saying."
+        "story": "Yes, Martijn can do the english. Yes he can do"
     },
     {
         "skill": ["dutch"],
@@ -123,7 +127,7 @@
     {
         "skill": ["german"],
         "response": "Ja, eh, nein",
-        "story": "German is not Marijn's strongest language. As in; he can understand a little and write even less."
+        "story": "German is not Marijn's strongest language. As in; he can understand a little and write even less"
     },
     {
         "skill": ["french"],
@@ -138,12 +142,12 @@
     {
         "skill": ["photoshop"],
         "response": "A little",
-        "story": "Martijn has little Photoshop knowledge. He is more a 'Sketch' guy and not really a visual designer. Martijn uses it merely as a tool to interpret designs from people who know what they're doing."
+        "story": "Martijn has little Photoshop knowledge. He is more a 'Sketch' guy and not really a visual designer. Martijn uses it merely as a tool to interpret designs from people who know what they're doing"
     },
     {
         "skill": ["illustrator"],
         "response": "No",
-        "story": "No illustrator experience, none."
+        "story": "No illustrator experience, none"
     },
     {
         "skill": ["sketch"],
@@ -153,52 +157,52 @@
     {
         "skill": ["flash", "swf"],
         "response": "Ah nope",
-        "story": "Well, with playing games and, you know, when flash was still cool. But developing things. No. "
+        "story": "Well, with playing games and, you know, when flash was still cool. But developing things. No"
     },
     {
         "skill": ["react", "flux"],
         "response": "Yes",
-        "story": "While developing whitestone.io Marko and Martijn used react, and flux for that matter, to build things. Martijn is still learning though."
+        "story": "While developing whitestone.io Marko and Martijn used react, and flux for that matter, to build things. Martijn is still learning though"
     },
     {
         "skill": ["angular", "angular.js", "angularjs"],
         "response": "Nope",
-        "story": "Martijn has not had a chance to use Angular yet. And to be honest, react seems like a better choice."
+        "story": "Martijn has not had a chance to use Angular yet. And to be honest, react seems like a better choice"
     },
     {
         "skill": ["node", "nodejs", "node.js"],
         "response": "A little bit",
-        "story": "Martijn has chosen to use node and express to build this thing you're looking at. You know, just to play arround a bit."
+        "story": "Martijn has chosen to use node and express to build this thing you're looking at. You know, just to play arround a bit"
     },
     {
         "skill": ["express"],
         "response": "Somewhat",
-        "story": "Actually, Martijn has used this only once before, building this site. But he's interrested though."
+        "story": "Actually, Martijn has used this only once before, building this site. But he's interrested though"
     },
     {
         "skill": ["linux"],
         "response": "Yes",
-        "story": "And to be specific; Debian based Linux preferably. Mainly Ubuntu to be precise. Martijn has always been a big open source guy. He dreams of RMS's beard and is thinking about getting a GPL tattoo."
+        "story": "And to be specific; Debian based Linux preferably. Mainly Ubuntu to be precise. Martijn has always been a big open source guy. He dreams of RMS's beard and is thinking about getting a GPL tattoo"
     },
     {
         "skill": ["ms", "windows", "microsoft", "azure"],
         "response": "Ah nope",
-        "story": "Microsoft tech has never really been Martijn's thing. While Azure sounds awesome, he has never taken steps to learn."
+        "story": "Microsoft tech has never really been Martijn's thing. While Azure sounds awesome, he has never taken steps to learn"
     },
     {
         "skill": ["osx"],
         "response": "Yes",
-        "story": "OSX is Martijn's workhorse OS. A few year ago he switched from windows to mac, and has never looked back since."
+        "story": "OSX is Martijn's workhorse OS. A few year ago he switched from windows to mac, and has never looked back since"
     },
     {
         "skill": ["you", "me"],
-        "response": "Uhmm..",
+        "response": "Uhmm.",
         "story": "Maybe? We should definitly get to know eachother first. And what do you mean 'do'?"
     },
     {
         "skill": ["coffee"],
-        "response": "Yes but...",
-        "story": "Martijn has been going caffeine free from time to time. He's more of a tea guy."
+        "response": "Yes but..",
+        "story": "Martijn has been going caffeine free from time to time. He's more of a tea guy"
     },
     {
         "skill": ["tea"],
@@ -208,22 +212,22 @@
     {
         "skill": ["zen", "meditation"],
         "response": "Ommm",
-        "story": "Martijn is a true treehugger. He will hug the shit out of that tree. Martijn has many years experience with mediation and goes to retreats many times a year."
+        "story": "Martijn is a true treehugger. He will hug the shit out of that tree. Martijn has many years experience with mediation and goes to retreats many times a year"
     },
     {
         "skill": ["yoga"],
         "response": "Yes and no",
-        "story": "Martijn usually does yoga on a retreat, but its not part of his main routine."
+        "story": "Martijn usually does yoga on a retreat, but its not part of his main routine"
     },
     {
         "skill": ["football"],
         "response": "Yes",
-        "story": "While Martijn doesn't like to play on a field, he does know a few tricks."
+        "story": "While Martijn doesn't like to play on a field, he does know a few tricks"
     },
     {
         "skill": ["animation"],
         "response": "Yes and no",
-        "story": "It's not Martijn's strong point, but he does have some experience with creating CSS3 animations and getting stuff to wiggle on a website."
+        "story": "It's not Martijn's strong point, but he does have some experience with creating CSS3 animations and getting stuff to wiggle on a website"
     },
     {
         "skill": ["ramen"],
@@ -233,72 +237,72 @@
     {
         "skill": ["grunt", "gulp"],
         "response": "Yes",
-        "story": "But! He's been going full npm scripts lately, because he can."
+        "story": "But! He's been going full npm scripts lately, because he can"
     },
     {
         "skill": ["npm"],
         "response": "Well, yes",
-        "story": "This site wouldn't be the same without npm. There is no way arround it nowadays."
+        "story": "This site wouldn't be the same without npm. There is no way arround it nowadays"
     },
     {
         "skill": ["webpack"],
         "response": "Yes-ish",
-        "story": "Martijn is still learning, but there is some experience with webpack. Also in combination with React."
+        "story": "Martijn is still learning, but there is some experience with webpack. Also in combination with React"
     },
     {
-        "skill": ["sass", "scss"],
-        "response": "YesYes.",
+        "skill": ["sass", "scss", "libsass", "sassc"],
+        "response": "YesYes",
         "story": "To be specific, Martijn hates SASS, but loves SCSS. Brackets baby. BRACKETS!!!"
     },
     {
         "skill": ["less"],
         "response": "No",
-        "story": "Martijn has chosen SCSS over LESS. Though both are similar and Martijn shouldn't have problems creating stuff in Less, he has never actually used it."
+        "story": "Martijn has chosen SCSS over LESS. Though both are similar and Martijn shouldn't have problems creating stuff in Less, he has never actually used it"
     },
     {
         "skill": ["apache"],
         "response": "Yes",
-        "story": "Many many many years of Apache experience flow through his veins."
+        "story": "Many many many years of Apache experience flow through his veins"
     },
     {
         "skill": ["nginx"],
         "response": "Yes",
-        "story": "Replacing Apache in many projects now. Nginx is now a default in Martijn's toolbox."
+        "story": "Replacing Apache in many projects now. Nginx is now a default in Martijn's toolbox"
     },
     {
         "skill": ["varnish"],
-        "response": "So so ...",
-        "story": "Martijn has worked on a few very high performant websites which use varnish. But he is still a bit new with this."
+        "response": "So so ..",
+        "story": "Martijn has worked on a few very high performant websites which use varnish. But he is still a bit new with this"
     },
     {
         "skill": ["c#"],
         "response": "Nope",
-        "story": "Martijn has never used C# before."
+        "story": "Martijn has never used C# before"
     },
     {
         "skill": ["c++"],
         "response": "Nope",
-        "story": "Yeah, no. No c++."
+        "story": "Yeah, no. No c++"
     },
     {
         "skill": ["c"],
-        "response": "Yes, but no.",
+        "response": "Yes, but no",
         "story": "Seriously, how old are you anyway?"
     },
     {
         "skill": ["objective-c", "objectivec"],
         "response": "Not really",
-        "story": "Martijn has worked on a few iOS apps, but to say that he has any worthwhile; no not really. And, he'd probably go with Swift if he had the choice now."
+        "story": "Martijn has worked on a few iOS apps, but to say that he has any worthwhile; no not really. And, he'd probably go with Swift if he had the choice now"
     },
     {
         "skill": ["swift"],
         "response": "No",
-        "story": "Martijn has no experience with Swift as of now. He has bought a couple of books though, so things are looking up."
+        "story": "Martijn has no experience with Swift as of now. He has bought a couple of books though, so things are looking up"
     },
     {
         "skill": ["memcached"],
         "response": "Yes",
-        "story": "Memcached is Martijn's primary caching choice."
+        "story": "Memcached is Martijn's primary caching choice"
     },
     {
         "skill": ["elasticsearch"],
@@ -308,42 +312,42 @@
     {
         "skill": ["celery"],
         "response": "A little",
-        "story": "Martijn has used Celery and Redis in Whitestone.io for task automation. But his knowledge does not go very deep."
+        "story": "Martijn has used Celery and Redis in Whitestone.io for task automation. But his knowledge does not go very deep"
     },
     {
         "skill": ["api", "apis", "api's", "rest"],
-        "response": "Yes...",
+        "response": "Yes..",
         "story": "Martijn has a lot of experience developing API's and connecting with API's. So which are you looking for?"
     },
     {
         "skill": ["oauth"],
-        "response": "Yes...",
-        "story": "Martijn has setup oauth flows before. Most recently in combination with python-oauth."
+        "response": "Yes..",
+        "story": "Martijn has setup oauth flows before. Most recently in combination with python-oauth"
     },
     {
         "skill": ["security"],
         "response": "Yes",
-        "story": "Martijn has a great interrest in security and keeping data safe. While he is by no means a security expert, he try's to keep up to date."
+        "story": "Martijn has a great interrest in security and keeping data safe. While he is by no means a security expert, he try's to keep up to date"
     },
     {
-        "skill": ["riot"],
+        "skill": ["riots"],
         "response": "No",
         "story": "But life is a riot no?"
     },
     {
         "skill": ["ios"],
         "response": "Not really",
-        "story": "He has build a total of 3 apps. All of them were build using a UIWebView wrapper-ish style."
+        "story": "He has build a total of 3 apps. All of them were build using a UIWebView wrapper-ish style"
     },
     {
         "skill": ["ionic"],
         "response": "Ah nope",
-        "story": "Martijn has heard about it, but unfortunatly no, no experience to be found here."
+        "story": "Martijn has heard about it, but unfortunatly no, no experience to be found here"
     },
     {
         "skill": ["backbone"],
         "response": "No",
-        "story": "Martijn totaly missed the whole Backbone phase. He went straight to React."
+        "story": "Martijn totaly missed the whole Backbone phase. He went straight to React"
     },
     {
         "skill": ["emacs"],
@@ -358,37 +362,37 @@
     {
         "skill": ["atom"],
         "response": "Yes",
-        "story": "VIM's shiny new replacement. Martijn starting playing around with Atom in 2016. With VIM key bindings of course."
+        "story": "VIM's shiny new replacement. Martijn starting playing around with Atom in 2016. With VIM key bindings of course"
     },
     {
         "skill": ["processing", "p5", "p5.js", "processing.js"],
         "response": "A little",
-        "story": "Martijn has done a couple of processing projects. He doesn't like it though. Martijn thinks the framework is a bit sloppy and has a lot of magic."
+        "story": "Martijn has done a couple of processing projects. He doesn't like it though. Martijn thinks the framework is a bit sloppy and has a lot of magic"
     },
     {
-        "skill": ["jade"],
+        "skill": ["jade", "pug"],
         "response": "Yes",
-        "story": "Martijn has used Jade. This site uses jade for example"
+        "story": "Martijn has used Pug/Jade. This site uses jade for example"
     },
     {
         "skill": ["handlebars", "mustache"],
         "response": "Yes",
-        "story": "Handlebars is Martijn's go to clientside templating language / framework."
+        "story": "Handlebars is Martijn's goto clientside templating language / framework"
     },
     {
         "skill": ["unicode", "utf8", "multilanguage"],
         "response": "Yes",
-        "story": "Martijn has a lot of experience creating multilanguage websites, which requires a decent understading of unicode and specificly utf8. Martijn has gotten his insights from Joel."
+        "story": "Martijn has a lot of experience creating multilanguage websites, which requires a decent understading of unicode and specificly utf8. Martijn has gotten his insights from Joel"
     },
     {
-        "skill": ["bash"],
+        "skill": ["bash", "zsh", "commandline", "cli"],
         "response": "Yes",
-        "story": "Martijn spends a lot of his in the terminal. He is like a fish in water when grepping and |ing."
+        "story": "Martijn spends a lot of his in the terminal. He is like a fish in water when grepping and |ing"
     },
     {
         "skill": ["https", "ssl", "tls"],
         "response": "Yes",
-        "story": "Martijn has experience with https. Setting it up, registering certificates, the works. A+ ratings make him happy. Letsencrypt too."
+        "story": "Martijn has experience with https. Setting it up, registering certificates, the works. A+ ratings make him happy. Letsencrypt too"
     },
     {
         "skill": ["awesomeness"],
@@ -398,7 +402,7 @@
     {
         "skill": ["my garden"],
         "response": "No",
-        "story": "Do your own damn garden."
+        "story": "Do your own damn garden"
     },
     {
         "skill": ["cooking"],
@@ -413,27 +417,27 @@
     {
         "skill": ["kissing", "kisses"],
         "response": "Yes",
-        "story": "A little peck on the cheek, Smooching, Frenching. Martijn can do it all."
+        "story": "A little peck on the cheek, Smooching, Frenching. Martijn can do it all"
     },
     {
         "skill": ["yo momma"],
         "response": "No",
-        "story": "Do your own momma. Shiiitttttt."
+        "story": "Do your own momma. Shiiitttttt"
     },
     {
         "skill": ["beer"],
         "response": "Yes, oh dear god yes",
-        "story": "Martijn is a total beersnob. Checkout his profile on <a href=\"https://untappd.com/user/martijngorree\" target=\"_blank\">Untappd</a>."
+        "story": "Martijn is a total beersnob. Checkout his profile on <a href=\"https://untappd.com/user/martijngorree\" target=\"_blank\">Untappd</a>"
     },
     {
         "skill": ["dancing"],
-        "response": "Ehm, hello! Yes",
-        "story": "Martijn will dance his ass of. When he feels like it. When its not too crowded, and the music is just right. But then, then its a sight to behold."
+        "response": "Yes",
+        "story": "Martijn will dance his ass of. When he feels like it. When its not too crowded, and the music is just right. But then, it's a sight to behold"
     },
     {
         "skill": ["code"],
         "response": "Yes",
-        "story": "Dude. Wtf. Of course. Depends on the code though. But yes. Code. He can do that shit."
+        "story": "Dude. Wtf. Of course. Depends on the code though. But yes. Code. He can do that shit"
     },
     {
         "skill": ["binary"],
@@ -443,42 +447,42 @@
     {
         "skill": ["things"],
         "response": "Yes",
-        "story": "Big things, little things, amazing things. Martijn can do many things."
-    },
-    {
-        "skill": ["anything"],
-        "response": "No",
-        "story": "Martijn can do a great many things. But there are limits. Like the speed of light."
+        "story": "Big things, little things, amazing things. Martijn can do many things. Many many excellent things"
     },
     {
         "skill": ["something"],
         "response": "Yes",
-        "story": "Did you just type in exactly what the placeholder said? How boring. Try harder, be better."
+        "story": "Martijn can do a great many things. But there are limits. Like the speed of light"
+    },
+    {
+        "skill": ["anything"],
+        "response": "No",
+        "story": "Did you just type in exactly what the placeholder said? How boring. Try harder, be better"
     },
     {
         "skill": ["tequila"],
         "response": "Yes, wait. NO",
-        "story": "Martijn has don tequila and tequila has done Martijn. Things did not end well."
+        "story": "Martijn has don tequila and tequila has done Martijn. Things did not end well"
     },
     {
         "skill": ["alcohol"],
         "response": "Yes",
-        "story": "But not too much. Martijn has done the hangover puking thing and he does not like it. If you decide to feed him something alcoholic then either beer (the good kind), whisky (the expensive stuff) or gin are the way to go."
+        "story": "But not too much. Martijn has done the hangover-puke thing and he does not like it. If you decide to feed him something alcoholic then either beer (the good kind), whisky (the expensive stuff) or mezcal"
     },
     {
         "skill": ["walk", "walking"],
         "response": "Yes",
-        "story": "Depends a bit on the level of alcohol in his blood. But yes. Generally he walks just fine."
+        "story": "Depends a bit on the level of alcohol in his blood. But yes. Generally he walks just fine"
     },
     {
         "skill": ["sit", "sitting"],
         "response": "Yes",
-        "story": "Walk, sit, run. Nothing is too silly for Martijn."
+        "story": "Walk, sit, run. Nothing is too silly for Martijn"
     },
     {
         "skill": ["boogie"],
         "response": "Yes",
-        "story": "Martijn has much boogie. Such woogie."
+        "story": "Martijn has much boogie. Such woogie"
     },
     {
         "skill": ["run", "running"],
@@ -488,32 +492,32 @@
     {
         "skill": ["drugs"],
         "response": "No",
-        "story": "Don't do drugs man. Just don't. Think about the children man!"
+        "story": "Don't do drugs man. Just don't"
     },
     {
         "skill": ["guns"],
         "response": "Yes",
-        "story": "While he is apprehensive in saying this. Yes, he has experience with guns. As a teenager he was a member of a gun club and has competed in tournaments. He no longer enjoys this though and is against private gun ownership."
+        "story": "While he is apprehensive in saying this. Yes, he has experience with guns. As a teenager he was a member of a gun club and has competed in tournaments. He no longer enjoys this though and is against guns in general"
     },
     {
         "skill": ["a lot"],
         "response": "Yes",
-        "story": "While it does depend on the type of work. Martijn is known to do a lot."
+        "story": "While it does depend on the type of work. Martijn is known to do a lot"
     },
     {
         "skill": ["sit"],
         "response": "Yes",
-        "story": "Walk, sit, run. Nothing is too silly for Martijn."
+        "story": "Walk, sit, run. Nothing is too silly for Martijn"
     },
     {
         "skill": ["pasta"],
         "response": "Yes",
-        "story": "Martijn can do pasta well. Spaghetti, linguine, penne, ravioli, tortellini. Al dente all the things yo."
+        "story": "Martijn can do pasta well. Spaghetti, linguine, penne, ravioli, tortellini. Al dente all the things yo"
     },
     {
         "skill": ["ice cream"],
         "response": "It depends",
-        "story": "Do you mean eating or making. Because Martijn likes to eat ice cream, but has never actually made it himself."
+        "story": "Do you mean eating or making. Because Martijn likes to eat ice cream, but has never actually made it himself"
     },
     {
         "skill": ["it"],
@@ -527,52 +531,52 @@
     },
     {
         "skill": ["hug", "hugging"],
-        "response": "Yes, oh yes.",
-        "story": "Martijn is a self proclaimed hugging expert. He will hug people, trees even small animals. There is little he will not hug."
+        "response": "Yes, oh yes",
+        "story": "Martijn is a self proclaimed hugging expert. He will hug people, trees, even small animals. There is little he will not hug"
     },
     {
         "skill": ["stuff"],
         "response": "Yes",
-        "story": "Martijn does a lot of stuff. Small stuff, big stuff, difficult stuff, clean stuff."
+        "story": "Martijn does a lot of stuff. Small stuff, big stuff, difficult stuff, clean stuff"
     },
     {
         "skill": ["design"],
         "response": "Its complicated",
-        "story": "Martijn likes good design, but he does need to work with good designers to make things shine."
+        "story": "Martijn likes good design, but he does need to work with good designers to make things shine"
     },
     {
         "skill": ["headstand", "a headstand"],
         "response": "No",
-        "story": "You shouldn't ask Martijn to stand on his head. Just don't."
+        "story": "You shouldn't ask Martijn to stand on his head. Just don't"
     },
     {
         "skill": ["girls"],
         "response": "No",
-        "story": "What are these mystical 'girls' you are talking about? We live in the new age people. Gender stereotypes be so 1999."
+        "story": "What are these mystical 'girls' you are talking about? We live in the new age people. Gender stereotypes are so 1999"
     },
     {
         "skill": ["shit"],
         "response": "Yes",
-        "story": "Martijn can do some crazy shit. But he is also know to be able to handle his shit, and can deal with situations where shit hits the fan."
+        "story": "Martijn can do some crazy shit. But he is also known to be able to handle his shit, and can deal with situations where shit hits the fan"
     },
     {
         "skill": ["animals"],
         "response": "Yes",
-        "story": "But he has a problem with balloon animals."
+        "story": "But he has a problem with balloon animals"
     },
     {
         "skill": ["sarcasm"],
         "response": "No, yes",
-        "story": "As all people born in Rotterdam have a knack for sarcasm, Martijn is no stanger to its subtle and not so subtle intricacies."
+        "story": "As all people born in Rotterdam have a knack for sarcasm, Martijn is no stanger to its subtle art and not so subtle intricacies"
     },
     {
         "skill": ["criticism", "critique"],
         "response": "Yes",
-        "story": "As a good dutch citizen Martijn can critique the shit out of things. He can also handle critisism pretty well. But its best that you find this out for yourself."
+        "story": "As a good dutch citizen Martijn can critique the shit out of things. He can also handle critisism pretty well. But its best that you find this out for yourself"
     },
     {
         "skill": ["cookies"],
-        "response": "Yes, but...",
-        "story": "Are we talking about browser cookies? Or those awesome flaky oatmeal cookies from Koekela which, if you bring some, would make Martijn very happy."
+        "response": "Yes, but..",
+        "story": "Are we talking about browser cookies? Or those awesome flaky oatmeal cookies from Koekela which, if you bring some, would make Martijn very happy"
     }
 ]
