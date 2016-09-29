@@ -124,17 +124,17 @@
         &__title {
             width: 100%;
             color: $black;
-            padding: .5em;
+            padding: 10px;
             font-size: 150%;
             @include mappy-bp(medium) {
-                padding: 1em;
+                padding: 20px;
                 text-align: justify;
             }
         }
         &__descr {
-            padding: .5em;
+            padding: 10px;
             @include mappy-bp(medium) {
-                padding: 1em;
+                padding: 20px;
                 text-align: justify;
             }
 
